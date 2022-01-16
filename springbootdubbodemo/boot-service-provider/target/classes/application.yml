@@ -1,0 +1,14 @@
+#服务的端口
+server:
+  port: 8080
+#dubbo配置
+dubbo:
+  application:
+    name: site-server-boot-provider
+  #注册中心地址
+  registry:
+    address: zookeeper://127.0.0.1:2181
+  #协议
+  protocol:
+    name: dubbo
+    port: 8089
